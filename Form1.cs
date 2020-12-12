@@ -16,9 +16,6 @@ namespace Agencia_Inmobilaria
         {
             InitializeComponent();
         }
-        Inmueble casacabaña = new Inmueble();
-
-
         private void btnCabaña_Click(object sender, EventArgs e)
         {
             Inmueble casa = new Inmueble();

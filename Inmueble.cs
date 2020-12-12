@@ -17,14 +17,11 @@ namespace Agencia_Inmobilaria
         public int Codigopostal;
 
         public string Dormitorio;
-        //Propiedades set y get / modoficadores de acceso
         public string TipoInmueble1 { get => TipoInmueble; set => TipoInmueble = value; }
         public string Ubicacion1 { get => Ubicacion; set => Ubicacion = value; }
         public double Precio1 { get => Precio; set => Precio = value; }
         public int Area1 { get => Codigopostal; set => Codigopostal = value; }
         public string Dormitorio1 { get => Dormitorio; set => Dormitorio = value; }
-
-        //Metodos
         public void Registrar()
         {
 
@@ -38,17 +35,14 @@ namespace Agencia_Inmobilaria
         {
             
         }
-        
 
-
-        //constructor de parametros
         public Inmueble(string tipo, double precio)
         {
 
             TipoInmueble1 = tipo;
             Precio1 = precio;
         }
-        //constructor por defecto- Vacio
+       
         public Inmueble() 
         {
         }
